@@ -34,7 +34,7 @@ Personal cybersecurity study notes covering networking, operating systems, Linux
 
 ### Python
 - **Basics through OOP** — variables, strings, lists, tuples, dicts, conditionals, loops, functions, file I/O, error handling, modules, OOP, comprehensions, lambdas
-- **Security Scripts** — port scanner (TCP raw sockets)
+- **Security Scripts** — port scanner (TCP connect scan)
 
 ---
 
