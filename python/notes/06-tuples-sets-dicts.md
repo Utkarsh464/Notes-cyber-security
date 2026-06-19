@@ -14,6 +14,27 @@ x, y = coords      # unpacking
 print(x)           # 10
 ```
 
+### Tuple Methods
+
+```python
+t = (1, 2, 3, 2, 4)
+t.count(2)         # 2
+t.index(3)         # 2
+```
+
+### Named Tuples
+
+```python
+from collections import namedtuple
+
+Port = namedtuple("Port", ["number", "service"])
+p = Port(22, "SSH")
+p.number           # 22
+p.service          # "SSH"
+```
+
+---
+
 ## Sets
 
 Sets are unordered collections of unique items.
@@ -24,11 +45,35 @@ unique_ports = {22, 80, 443, 22}
 
 unique_ports.add(8080)
 unique_ports.remove(80)
-
-{1, 2, 3} | {3, 4, 5}  # union: {1, 2, 3, 4, 5}
-{1, 2, 3} & {3, 4, 5}  # intersection: {3}
-{1, 2, 3} - {3, 4, 5}  # difference: {1, 2}
 ```
+
+### Set Operations
+
+```python
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+a | b   # union:          {1, 2, 3, 4, 5, 6}
+a & b   # intersection:   {3, 4}
+a - b   # difference:     {1, 2}
+b - a   # difference:     {5, 6}
+a ^ b   # sym diff:       {1, 2, 5, 6}
+
+a.issubset({1, 2, 3, 4, 5})     # True
+a.issuperset({1, 2})            # True
+a.isdisjoint({7, 8})            # True
+```
+
+### Frozenset
+
+Immutable set — usable as a dict key.
+
+```python
+fs = frozenset([1, 2, 3])
+# fs.add(4)  — AttributeError
+```
+
+---
 
 ## Dictionaries
 
@@ -51,4 +96,54 @@ user.items()   # key-value pairs
 
 for key, val in user.items():
     print(f"{key}: {val}")
+```
+
+### Dict Comprehensions
+
+```python
+squares = {x: x**2 for x in range(5)}
+# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+ports = {s: n for n, s in [(22, "SSH"), (80, "HTTP")]}
+# Warning: n and s are reversed — intentional swap
+```
+
+### Merging Dictionaries
+
+```python
+defaults = {"timeout": 30, "retries": 3}
+config = {"timeout": 60}
+
+merged = {**defaults, **config}       # Python 3.5+
+merged = defaults | config            # Python 3.9+
+```
+
+### Nested Dicts
+
+```python
+users = {
+    "alice": {"role": "admin", "mfa": True},
+    "bob":   {"role": "user",  "mfa": False}
+}
+
+users["alice"]["role"]     # "admin"
+```
+
+---
+
+## Specialized Collections
+
+```python
+from collections import defaultdict, Counter, OrderedDict
+
+# defaultdict — auto-initializes missing keys
+log_counts = defaultdict(int)
+log_counts["ERROR"] += 1   # no KeyError
+
+# Counter — frequency counting
+ips = ["10.0.0.1", "10.0.0.2", "10.0.0.1"]
+Counter(ips)               # {"10.0.0.1": 2, "10.0.0.2": 1}
+
+# OrderedDict — remembers insertion order (dict does too since 3.7)
+OrderedDict([("a", 1), ("b", 2)])
 ```
