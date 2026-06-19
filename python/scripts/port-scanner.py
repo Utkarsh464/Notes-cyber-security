@@ -1,3 +1,6 @@
+# Utkarsh Solanki — Cybersecurity & AI Student
+# https://github.com/Utkarsh464
+
 import socket
 
 print("simple port scanner")

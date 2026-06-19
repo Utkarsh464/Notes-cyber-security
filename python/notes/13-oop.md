@@ -1,5 +1,10 @@
 # Object-Oriented Programming — Classes, Inheritance, and Encapsulation
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Model real-world objects — scanners, exploits, listeners — as reusable classes.
 
 ## Defining a Class

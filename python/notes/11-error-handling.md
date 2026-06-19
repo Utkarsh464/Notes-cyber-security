@@ -1,5 +1,10 @@
 # Error Handling — Try, Except, and Writing Robust Security Tools
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Your tool will hit unexpected inputs — handle them instead of crashing mid-scan.
 
 ## Try / Except

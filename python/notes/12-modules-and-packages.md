@@ -1,5 +1,10 @@
 # Modules and Packages — Importing, Organizing, and Using Libraries
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Split your tools into modules, reuse code, and tap into Python's massive ecosystem.
 
 ## Importing Modules

@@ -1,5 +1,10 @@
 # Introduction to Python
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 python is a high-level interpreted language. super popular in cyber for automation, scripting, tool dev, exploit prototyping.
 
 ## Why Python?

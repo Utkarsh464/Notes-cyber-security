@@ -1,5 +1,10 @@
 # Conditionals — Controlling Program Flow with if/elif/else
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Every decision your tool makes — allow or block, scan or skip, alert or ignore — starts here.
 
 ## Basic Syntax

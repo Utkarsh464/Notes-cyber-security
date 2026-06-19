@@ -1,5 +1,10 @@
 # File Handling — Reading, Writing, and Parsing Files
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Parse auth logs, write scan results, read configs — file I/O is everywhere in security.
 
 ## Opening a File

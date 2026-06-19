@@ -1,5 +1,10 @@
 # Numbers and Operators
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 python has ints, floats, and complex numbers. also `Decimal` for precise math and `Fraction` for rational.
 
 ## Integers

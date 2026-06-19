@@ -1,6 +1,9 @@
 # Phase 2 — Linux & Scripting
 > Complete self-contained notes. No external resources needed.
 > Estimated time: 1–2 months
+>
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
 
 ---
 

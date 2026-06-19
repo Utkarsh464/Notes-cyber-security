@@ -1,5 +1,10 @@
 # Newer Python Features — 3.10, 3.11, and Beyond
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Features you will encounter in modern codebases and security tools.
 
 ## Match/Case — Python 3.10+

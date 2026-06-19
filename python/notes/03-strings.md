@@ -1,5 +1,10 @@
 # Strings
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 strings are sequences of characters in quotes. in python 3 they're unicode by default.
 
 ## Creating Strings

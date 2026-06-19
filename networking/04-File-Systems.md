@@ -1,7 +1,7 @@
 # File Systems — How Your OS Stores Stuff
 
-> Personal notes by Utkarsh Solanki | Cybersecurity & AI Student  
-> GitHub: [github.com/Utkarsh464](https://github.com/Utkarsh464) | LinkedIn: [linkedin.com/in/utkarsh-solanki-337806252](https://linkedin.com/in/utkarsh-solanki-337806252)
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
 
 ---
 

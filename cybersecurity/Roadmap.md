@@ -1,5 +1,8 @@
 # Cybersecurity Roadmap 2026
 > Updated for 2026 job market — AI Security, Zero Trust, Cloud moved earlier, GRC/Risk added.
+>
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
 
 ---
 

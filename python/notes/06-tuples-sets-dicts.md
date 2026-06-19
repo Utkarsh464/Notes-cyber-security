@@ -1,5 +1,10 @@
 # Tuples, Sets, and Dictionaries — Immutable, Unique, and Key-Value Collections
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Tuples for fixed data, sets for deduplication, dicts for lookups — essential for security tooling.
 
 ## Tuples

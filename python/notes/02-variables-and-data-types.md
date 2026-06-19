@@ -1,5 +1,10 @@
 # Variables and Data Types
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 variables store data in memory. python is dynamically typed — you don't need to declare types and a var can change type whenever.
 
 ## Basic Types

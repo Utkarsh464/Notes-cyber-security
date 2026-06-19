@@ -1,5 +1,10 @@
 # Functions — Writing Reusable and Modular Code
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Build once, use everywhere — scan, parse, connect, log. Functions are the backbone of every security tool.
 
 ## Defining a Function

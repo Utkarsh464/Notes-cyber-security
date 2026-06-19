@@ -1,6 +1,9 @@
 # Phase 3 — Cybersecurity Fundamentals + Zero Trust
 > Complete self-contained notes. No external resources needed.
 > Estimated time: 3–4 weeks
+>
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
 
 ---
 

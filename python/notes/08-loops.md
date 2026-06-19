@@ -1,5 +1,10 @@
 # Loops — Iterating Through Data with for and while
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Process lists of IPs, read log lines, brute-force directories — loops make it repeatable.
 
 ## For Loop

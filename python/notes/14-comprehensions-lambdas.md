@@ -1,5 +1,10 @@
 # Comprehensions and Lambdas — Concise Iteration and Anonymous Functions
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 Write cleaner, faster code — transform lists, filter data, sort complex structures in one line.
 
 ## List Comprehension

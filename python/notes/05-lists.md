@@ -1,5 +1,10 @@
 # Lists
 
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
 lists are ordered, mutable collections. they're probably the most used data structure in python. can hold any type, mixed types, and they grow/shrink dynamically.
 
 ## Creating Lists

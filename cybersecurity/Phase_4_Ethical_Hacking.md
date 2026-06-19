@@ -1,6 +1,9 @@
 # Phase 4 — Ethical Hacking & Penetration Testing
 > Complete self-contained notes. No external resources needed.
 > Estimated time: 2–4 months
+>
+> **Utkarsh Solanki** — Cybersecurity & AI Student  
+> [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
 
 ---
 
