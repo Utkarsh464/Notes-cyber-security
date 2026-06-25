@@ -1,9 +1,32 @@
 # Notes-cyber-security
 
-Personal cybersecurity study notes covering networking, operating systems, Linux, cybersecurity fundamentals, ethical hacking, web application security, and Python.
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-blue)](https://github.com/Utkarsh464/Notes-cyber-security-)
+
+Personal cybersecurity study notes covering networking, operating systems, Linux, cybersecurity fundamentals, ethical hacking, web application security, AI security, and Python.
 
 > **Utkarsh Solanki** — Cybersecurity & AI Student  
 > [LinkedIn](https://linkedin.com/in/utkarsh-solanki-337806252) · [GitHub](https://github.com/Utkarsh464)
+
+---
+
+## Progress Tracker
+
+| Topic | Files | Lines | Depth | Status |
+|-------|-------|-------|-------|--------|
+| [Networking & OS](./networking/) | 6 | 1,797 | ★★★☆☆ | ✅ Complete |
+| [Linux](./linux/) | 5 | 1,903 | ★★★★☆ | ✅ Complete |
+| [Phase 2 — Linux & Scripting](./cybersecurity/Phase_2_Linux_and_Scripting.md) | 1 | 2,015 | ★★★★☆ | ✅ Complete |
+| [Phase 3 — Cybersecurity Fundamentals](./cybersecurity/Phase_3_Cybersecurity_Fundamentals.md) | 1 | 1,040 | ★★★★☆ | ✅ Complete |
+| [Phase 4 — Ethical Hacking](./cybersecurity/Phase_4_Ethical_Hacking.md) | 1 | 1,711 | ★★★★☆ | ✅ Complete |
+| [Phase 5 — Web Application Security](./cybersecurity/Phase_5_Web_Application_Security.md) | 1 | 981 | ★★★★☆ | ✅ Complete |
+| [Phase 5.5 — AI Security](./cybersecurity/Phase_5.5_AI_Security.md) | 1 | ~580 | ★★★★☆ | ✅ Complete |
+| [Python Notes](./python/notes/) | 16 | 2,018 | ★★★☆☆ | 🟡 Deepening |
+| [Python Scripts](./python/scripts/) | 1 | 29 | ★☆☆☆☆ | 🟡 Expanding |
+| Phase 6 — Cloud Security | — | — | — | 🔲 Planned |
+| Phase 7 — Blue Team / Defensive | — | — | — | 🔲 Planned |
+| Phase 8 — GRC & Risk Management | — | — | — | 🔲 Planned |
+| Phase 1 — IT & Networking | — | — | — | 🔲 Planned |
+| **Total** | **33** | **~12,074** | | |
 
 ---
 
@@ -28,14 +51,21 @@ Personal cybersecurity study notes covering networking, operating systems, Linux
 - **Bash Scripting** — variables, conditionals, loops, functions, arrays, regex, pipelines
 
 ### Cybersecurity
-- **Fundamentals** — CIA triad, AAA, Zero Trust, cryptography, risk management
-- **Ethical Hacking** — recon, scanning, exploitation, post-exploitation, reporting
-- **Web Application Security** — OWASP Top 10, injection, XSS, auth flaws, API security, SSRF
+- **Phase 2 — Linux & Scripting** — Linux administration, bash scripting, Python for security, automation
+- **Phase 3 — Fundamentals** — CIA triad, AAA, Zero Trust, cryptography, risk management
+- **Phase 4 — Ethical Hacking** — recon, scanning, exploitation, post-exploitation, reporting
+- **Phase 5 — Web Application Security** — OWASP Top 10, injection, XSS, auth flaws, API security, SSRF
+- **Phase 5.5 — AI Security** — prompt injection, jailbreaking, OWASP LLM Top 10, adversarial ML, AI defense
 
 ### Python
 - **Basics through OOP** — variables, strings, lists, tuples, dicts, conditionals, loops, functions, file I/O, error handling, modules, OOP, comprehensions, lambdas
+- **Modern Features** — match/case, type hints, zoneinfo, exception groups
 - **Security Scripts** — port scanner (TCP connect scan)
 
 ---
 
-*Last updated: June 2026*
+## Recent Updates
+
+- **June 2025** — Added Phase 5.5 AI Security (~580 lines). Added progress tracker to README.
+- **June 2025** — Expanded Python notes (functions, conditionals, loops, newer features). Added `__init__.py`, `.gitignore`.
+- **June 2025** — Restructured into monorepo. Added networking cheatsheets.
