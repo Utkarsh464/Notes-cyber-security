@@ -9,18 +9,24 @@ algos = {
     128: hashlib.sha512,
 }
 
-def crack_hash(target, wordlist):
-    algo = algos.get(len(target))
-    if algo is None:
-        print("unknown hash type")
-        return
-    with open(wordlist, "r", errors="ignore") as f:
-        for line in f:
-            if target == algo(line.strip().encode()).hexdigest():
-                print("found", target, "=", line.strip())
-                return
-    print("not found")
+def crack_hash(targets, wordlist):
+    with open(targets, "r", errors="ignore") as t:
+        for target in t:
+            target = target.strip()
+            if not target:
+                continue
+            algo = algos.get(len(target))
+            if algo is None:
+                print("unknown hash:", target)
+                continue
+            with open(wordlist, "r", errors="ignore") as f:
+                for line in f:
+                    if target == algo(line.strip().encode()).hexdigest():
+                        print("found", target, "=", line.strip())
+                        break
+                else:
+                    print("not found:", target)
 
-x = input("enter the hash :")
+x = input("enter the hash path :")
 w = input("enter wordlist path :")
 crack_hash(x, w)
