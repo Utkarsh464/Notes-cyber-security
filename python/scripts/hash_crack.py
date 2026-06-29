@@ -9,4 +9,5 @@ def crack_hash(target, wordlist):
     print("not found")
 
 x = input("enter the hash :")
-crack_hash(x, "../passwords/rockyou.txt")
+w = input("enter wordlist path :")
+crack_hash(x, w)
